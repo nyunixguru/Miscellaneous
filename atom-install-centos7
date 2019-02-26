@@ -1,0 +1,16 @@
+Install atom editor on centos7
+
+sudo rpm --import https://packagecloud.io/AtomEditor/atom/gpgkey
+sudo vi /etc/yum.repos.d/atom.repo
+
+[Atom]
+name=Atom Editor
+baseurl=https://packagecloud.io/AtomEditor/atom/el/7/$basearch
+enabled=1
+gpgcheck=0
+repo_gpgcheck=1
+gpgkey=https://packagecloud.io/AtomEditor/atom/gpgkey
+
+sudo yum install atom
+
+atom
