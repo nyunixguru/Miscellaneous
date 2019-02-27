@@ -14,3 +14,6 @@ gpgkey=https://packagecloud.io/AtomEditor/atom/gpgkey
 sudo yum install atom
 
 atom
+
+Disable screen lock on Centos gnome
+gsettings set org.gnome.desktop.session idle-delay 0
