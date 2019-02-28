@@ -15,6 +15,8 @@ sudo yum install atom
 
 atom
 
+ctrl-shift-b   # run script in atom (must have script package installed
+
 apm list -ap  # List all installed atom packages
 Community Packages (3) /home/david/.atom/packages
 ├── autocomplete-python@1.12.0   #Method expansion
