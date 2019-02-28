@@ -17,7 +17,7 @@ atom
 
 apm list -ap  # List all installed atom packages
 Community Packages (3) /home/david/.atom/packages
-├── autocomplete-python@1.12.0
+├── autocomplete-python@1.12.0   #Method expansion
 ├── language-terraform@0.8.1
 └── script@3.18.1
 
