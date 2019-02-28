@@ -15,5 +15,7 @@ sudo yum install atom
 
 atom
 
+apm list -ap  # List all installed atom packages
+
 Disable screen lock on Centos gnome
 gsettings set org.gnome.desktop.session idle-delay 0
