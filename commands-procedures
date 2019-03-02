@@ -26,3 +26,9 @@ Community Packages (3) /home/david/.atom/packages
 
 Disable screen lock on Centos gnome
 gsettings set org.gnome.desktop.session idle-delay 0
+
+Install vlc media player
+sudo yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+sudo yum install https://download1.rpmfusion.org/free/el/rpmfusion-free-release-7.noarch.rpm
+sudo yum info vlc
+sudo yum install vlc
